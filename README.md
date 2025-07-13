@@ -1,6 +1,22 @@
-# Electron
+# Electron - AI File Companion 🔍
 
-Une application desktop intelligente pour rechercher et analyser le contenu de vos fichiers locaux avec des capacités OCR et d'intelligence artificielle.
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Lounes-M/Electron/blob/main/LICENSE)
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen.svg)](https://nodejs.org/)
+[![Electron](https://img.shields.io/badge/Electron-Latest-blue.svg)](https://electronjs.org/)
+
+Une application desktop intelligente construite avec Electron pour rechercher et analyser le contenu de vos fichiers locaux avec des capacités OCR et d'intelligence artificielle.
+
+![Electron App Screenshot](https://via.placeholder.com/800x450?text=Electron+AI+File+Companion)
+
+## 🚀 Fonctionnalités
+
+- **🎨 Interface moderne** avec support thème sombre/clair
+- **📁 Indexation intelligente** de dossiers avec surveillance en temps réel
+- **🔍 Recherche full-text** avancée avec SQLite FTS5
+- **🤖 OCR intégré** pour l'analyse d'images et documents scannés
+- **🧠 Intégration IA** pour l'analyse contextuelle (local et API externes)
+- **⚡ Performance optimisée** avec cache et worker threads
+- **🌐 Multiplateforme** (Windows, macOS, Linux)
 
 ## 🚀 Fonctionnalités
 
@@ -53,27 +69,32 @@ src/
 - Node.js 18+ 
 - npm ou yarn
 
-### Installation
+## 📦 Installation
 
-1. Cloner le projet :
-```bash
-git clone <repository-url>
-cd electron
-```
+### Prérequis
 
-2. Installer les dépendances :
+- [Node.js](https://nodejs.org/) 18+ 
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+
+### Cloner et installer
+
 ```bash
+git clone https://github.com/Lounes-M/Electron.git
+cd Electron
 npm install
 ```
 
-3. Lancer en mode développement :
-```bash
-npm start
-```
+### Démarrage rapide
 
-4. Builder l'application :
 ```bash
+# Mode développement
+npm start
+
+# Build pour production
 npm run make
+
+# Package l'application
+npm run package
 ```
 
 ## 🎯 Utilisation
